@@ -3,7 +3,7 @@ import React from 'react'
 function ProfileCard({writer}) {
   return (
     <div className='card'>
-    <img src={'images/${writer.avatar}.png'}
+    <img src={`images/${writer.avatar}.png`}
     height="300px" width="300px" alt={writer.img}/>
 
     <div className='textGroup'>
@@ -11,7 +11,7 @@ function ProfileCard({writer}) {
     <p>{writer.email}</p>
     <p>{writer.phone}</p>
 
-    <button className='actionBtn'>Read Bio</button>
+    <button className='actionBtn' onClick={this.handleClick}>Read Bio</button>
     </div>
     
     </div>

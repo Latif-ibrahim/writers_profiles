@@ -1,4 +1,4 @@
-import ProfileCard from './components/ProfileCard';
+import ProfileCard from "./components/ProfileCard";
 
 import React, { Component } from 'react'
 
@@ -60,7 +60,7 @@ setTimeout(async()=>{
       {list.length === 0 ? (
         <div className="card action">
         <p className='infoText'>Oops...no writer profile found</p>
-        <button className="actionBtn">Get Writers</button>
+        <button className="actionBtn" onClick={this.handleClick}>Get Writers</button>
         </div>
       ):(
         list.map((writer) =>(
