@@ -1,6 +1,6 @@
-import ProfileCard from "./components/ProfileCard";
+import ProfileCard from './components/ProfileCard';
 
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 class App extends Component {
   constructor(){
@@ -16,8 +16,8 @@ class App extends Component {
     };
   }
 handleClick(){
-  this.setState({
-    writers:{
+  this.setState({writers:
+    {
       loading:true
     }
   });
@@ -40,7 +40,7 @@ setTimeout(async()=>{
    }= this.state;
 
 
-   if(loading){
+   if (loading){
      return(
        <div>
        <h1>Writers Profile</h1>
@@ -50,7 +50,7 @@ setTimeout(async()=>{
        </div>
        </div>
        </div>
-     )
+     );
    }
 
     return (
@@ -69,7 +69,7 @@ setTimeout(async()=>{
       )}
       </div>  
       </div>
-    )
+    );
   }
 }
 
