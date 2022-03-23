@@ -1,51 +1,51 @@
 [
 {
     "id": 1,
-    "name":"Audre Lorde",
-    "avatar":"audre_lorde",
+    "name":"Dennis Ritchie",
+    "avatar":"a_j",
     "email":"audrelorde@gmail.com",
     "phone": "1-773-454-3645",
-    "bio": "John Mahama,in full John Dramani Mahama,(born November 29, 1958, Damongo, Ghana), Ghanaian politician who became vice president of Ghana in 2009. After the death of Pres. John Evans Atta Mills in July 2012, Mahama ascended to the presidency. He was elected president later that year and served until 2017.Mahama was born into a politically active family. His father,Emmanuel Adama Mahama, served as a member of Parliament as well as a regional commissioner in the government of Ghana’s first president, Kwame Nkrumah. John Mahama attended primary school at the Achimota School in Accra and attended the  Ghana Secondary School in Tamale. He received a bachelor’s degree in history in 1981 from the University of Ghana, Legon, where he also completed postgraduate studies in communication in 1986. Mahama taught high-school history for a few years before pursuing a postgraduate degree in social psychology from the Institute of Social Sciences in Moscow, which was awarded in 1988."
+    "bio": "Dennis Ritchie was an American computer scientist who helped shape the digital era.He created the C programming language and with long-time colleague Ken Thompson, the Unix operating system.Ritchie and Thompson received the Turing Award from the ACM in 1983, the Hamming Medal from the IEEE in 1990 and the National Medal of Technology from President Clinton in 1999.Ritchie was the head of Lucent Technologies System Software Research Department when he retired in 2007."
 },
 {
     "id": 1,
-    "name":"Audre Lorde",
-    "avatar":"belle_hooks",
+    "name":"Bjarne Stroustrup",
+    "avatar":"b_j",
     "email":"audrelorde@gmail.com",
     "phone": "1-773-454-3645",
-    "bio": "William Addo Dankwa Nana Akufo-Addo was born on March 29, 1944, Accra Ghana. Nana hails from Akropong-Akuapen and Kyebi in the Eastern Region. He was born into a prominent Ghanaian royal and political family by Edward and Adeline Akufo-Addo. His father Edward, was the former President of Ghana who served from 1970 to 1972.He began his primary education at the Government Boys School, Adabraka, and later moved to Rowe Road School (now Kinbu), in Accra Central. Thereafter, he moved on the Lacing College to study for O-level and A-levels examination.Then, in 1962, he attended the New College, Oxford to study Philosophy, Politics and Economics, but he soon left afterwards. Then in 1964, he moved to University of Ghana and earned a B.Sc Economics in 1967. Subsequently, he went to the Inns of Court School of Law."
+    "bio": "Bjarne Stroustrup is a Danish computer scientist, most notable for the creation and development of the widely used C++ programming language.He is a Distinguished Research Professor and holds the College of Engineering Chair in Computer Science at Texas A&M University, a visiting professor at Columbia University, and works at Morgan Stanley."
 },
 {
     "id": 1,
-    "name":"Audre Lorde",
-    "avatar":"du_bois",
+    "name":"James Gosling",
+    "avatar":"c_j",
     "email":"audrelorde@gmail.com",
     "phone": "1-773-454-3645",
-    "bio": "she is a bloger for the year ended 2022"
+    "bio": "James Arthur Gosling is a Canadian computer scientist, best known as the father of the Java programming language.Due to his extra-ordinary achievements, Gosling was elected to Foreign Associate member of the United States National Academy of Engineering."
 },
 {
     "id": 1,
-    "name":"Audre Lorde",
-    "avatar":"james_baldwin",
+    "name":"Linus Torvalds",
+    "avatar":"d_j",
     "email":"audrelorde@gmail.com",
     "phone": "1-773-454-3645",
-    "bio": "she is a bloger for the year ended 2022"
+    "bio": "Linus Benedict Torvalds is a Finnish American software engineer, who was the principal force behind the development of the Linux kernel.He later became the chief architect of the Linux kernel, and now acts as the project’s coordinator.He also created the revision control system Git as well as the diving log software Subsurface.He was honored, along with Shinya Yamanaka, with the 2012 Millennium Technology Prize by the Technology Academy Finland, in recognition of his creation of a new open source operating system, for computers leading to the widely used Linux kernel."
 },
 {
     "id": 1,
-    "name":"Audre Lorde",
-    "avatar":"lanston_hughes",
+    "name":"Anders Hejlsberg",
+    "avatar":"e_j",
     "email":"audrelorde@gmail.com",
     "phone": "1-773-454-3645",
-    "bio": "she is a bloger for the year ended 2022"
+    "bio": "Anders Hejlsberg is a prominent Danish software engineer who co-designed several popular and commercially successful programming languages and development tools.He is creator of popular programming language C#.He was the original author of Turbo Pascal and the chief architect of Delphi.He currently works for Microsoft as the lead architect of C# and core developer on TypeScript."
 },
 {
     "id": 1,
-    "name":"Audre Lorde",
-    "avatar":"maya_angelou",
+    "name":"Donald Knuth",
+    "avatar":"f_j",
     "email":"audrelorde@gmail.com",
     "phone": "1-773-454-3645",
-    "bio": "she is a bloger for the year ended 2022"
+    "bio": "Donald Ervin Knuth is an American computer scientist, mathematician, and Professor Emeritus at Stanford University.He is the author of the multi-volume work The Art of Computer Programming.Knuth has been called the father of the analysis of algorithms.He contributed to the development of the rigorous analysis of the computational complexity of algorithms and systematized formal mathematical techniques for it.In the process he also popularized the asymptotic notation.Knuth is the creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system and the Computer Modern family of typefaces."
 }
 
 ]

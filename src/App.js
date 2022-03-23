@@ -1,46 +1,30 @@
-import ProfileCard from './components/ProfileCard';
+import React, {useState} from 'react'
+import  ProfileCard from "./components/ProfileCard"
 
-import React, { Component } from 'react';
+function App() {
+const [writers, setWriters]=useState({
+  loading:false,
+  list:[]
+});
 
-class App extends Component {
-  constructor(){
-    super();
+const handleClick = ()=>{
+  setWriters((previousState)=>({
+    ...previousState,
+    loading:true
+  }))
+  setTimeout(async () =>{
+    let resp = await fetch("/writers.json");
+    let result = await resp.json();
 
-    this.handleClick =this.handleClick.bind(this);
-
-    this.state ={
-      writers:{
-        loading: false,
-        list:[]
-      }
-    };
-  }
-handleClick(){
-  this.setState({writers:
-    {
-      loading:true
-    }
-  });
-
-setTimeout(async()=>{
-  let resp = await fetch("/writers.json");
-  let result = await resp.json();
-
-  this.setState({
-    writers:{
+    setWriters((previousState)=>({
+      ...previousState,
       loading:false,
-      list: result
-    }
-  });
-}, 3500);
-}
- render() {
-   const {
-     writers:{loading, list}
-   }= this.state;
+      list:result
+    }));
+  }, 2500)
+};
 
-
-   if (loading){
+   if (writers.loading){
      return(
        <div>
        <h1>Writers Profile</h1>
@@ -57,13 +41,13 @@ setTimeout(async()=>{
       <div>
       <h1>Writers Profiles</h1>
       <div className="container">
-      {list.length === 0 ? (
+      {writers.list.length === 0 ? (
         <div className="card action">
         <p className='infoText'>Oops...no writer profile found</p>
-        <button className="actionBtn" onClick={this.handleClick}>Get Writers</button>
+        <button className="actionBtn" onClick={handleClick}>Get Writers</button>
         </div>
       ):(
-        list.map((writer) =>(
+        writers.list.map((writer) =>(
           <ProfileCard key={writer.id} writer={writer}/>
         ))
       )}
@@ -71,6 +55,6 @@ setTimeout(async()=>{
       </div>
     );
   }
-}
+
 
 export default App;

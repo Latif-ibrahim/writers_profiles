@@ -16,7 +16,7 @@ function ProfileCard({writer}) {
       <p className='bio'>{writer.bio}</p>
       </div>
       ):(
-        <img src={`images/${writer.avatar}.png`}
+        <img src={`images/${writer.avatar}.jpeg`}
     height="300px" width="300px" alt={writer.img}/>
       )}
     </div>
